@@ -1,0 +1,27 @@
+.navber {
+    text-align: center;
+    background-color: #241b2f;
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    line-height: 50px ;
+  }
+
+  
+  .navber a {
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navber a:hover {
+    background-color: #333333;
+  }
+  
+  @media (max-width: 420px) {
+    .navber a {
+      padding: 16px 8px;
+    }
+  }
